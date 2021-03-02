@@ -132,8 +132,6 @@ body {
 }
 /* about me styles */
 .ab-me {
-    border: 1.5px solid black;
-    border-radius: 250px;
     height: 25%;
     margin-top: 2.5%;
     width: 25%;
