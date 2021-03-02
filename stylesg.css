@@ -1,0 +1,59 @@
+body {
+    margin: 0px;
+    margin-bottom: 0px;
+    background-image: linear-gradient( to right, lightgray, gray);
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+    background-color: black;
+}
+.left {
+    display: flex;
+}
+.nav > .left > div {
+    margin-right: 20px;
+    font-size: large;
+}
+.nav-link {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+.nav-link a {
+    color: wheat;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.nav-link:hover {
+    border-bottom: 1px solid white;
+}
+.nav-link a:hover {
+    color: white;
+}
+.right {
+    float: right;
+}
+.name {
+    text-align: top;
+    color: whitesmoke;
+    font-size: large;
+}
+.full {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.img-1 {
+    color: black;
+    height: 75%;
+    width: 75%;
+}
+.img {
+    width: 100%;
+    height: auto;
+}
+.head {
+    color: white;
+    font-size: xx-large;
+}
